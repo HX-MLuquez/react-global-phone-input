@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  min-width: 120px;
+  transition: border-color 0.2s;
+}
+
+.select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  flex: 1;
+  transition: border-color 0.2s;
+}
+
+.input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.icon {
+  font-size: 1.2rem;
+  margin-left: 0.3rem;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .select {
+    width: 100%;
+    min-width: auto;
+  }
+}
