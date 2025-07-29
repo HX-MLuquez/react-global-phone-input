@@ -1,6 +1,6 @@
 {
   "name": "react-global-phone-input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "type": "module",
   "main": "dist/react-global-phone-input.umd.js",
@@ -22,7 +22,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HX-MLuquez/react-country-phone-input"
+    "url": "git+https://github.com/HX-MLuquez/react-global-phone-input"
   },
   "dependencies": {
     "libphonenumber-js": "^1.12.10",
