@@ -1,8 +1,8 @@
-# 🌍 react-country-phone-input
+# 🌍 react-global-phone-input
 
-[![npm version](https://img.shields.io/npm/v/react-country-phone-input.svg?style=flat-square)](https://www.npmjs.com/package/react-country-phone-input)
-[![npm downloads](https://img.shields.io/npm/dm/react-country-phone-input.svg?style=flat-square)](https://www.npmjs.com/package/react-country-phone-input)
-[![license](https://img.shields.io/github/license/mauriciogaston/react-country-phone-input?style=flat-square)](https://github.com/mauriciogaston/react-country-phone-input/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/react-global-phone-input.svg?style=flat-square)](https://www.npmjs.com/package/react-global-phone-input)
+[![npm downloads](https://img.shields.io/npm/dm/react-global-phone-input.svg?style=flat-square)](https://www.npmjs.com/package/react-global-phone-input)
+[![license](https://img.shields.io/github/license/mauriciogaston/react-global-phone-input?style=flat-square)](https://github.com/mauriciogaston/react-global-phone-input/blob/main/LICENSE)
 
 📱 A beautiful, customizable phone number input with country selector, real-time validation, and automatic formatting for React applications.
 
@@ -20,9 +20,9 @@
 ## Installation
 
 ```bash
-npm install react-country-phone-input
+npm install react-global-phone-input
 # or
-yarn add react-country-phone-input
+yarn add react-global-phone-input
 ```
 
 ### Peer Dependencies
@@ -37,8 +37,8 @@ yarn add react react-dom zustand libphonenumber-js
 
 ```jsx
 import React, { useState } from "react";
-import PhoneInput from "react-country-phone-input";
-import "react-country-phone-input/dist/style.css";
+import PhoneInput from "react-global-phone-input";
+import "react-global-phone-input/dist/style.css";
 
 function App() {
   const [phone, setPhone] = useState("");
@@ -59,7 +59,7 @@ export default App;
 
 ```jsx
 import React, { useState } from "react";
-import PhoneInput from "react-country-phone-input";
+import PhoneInput from "react-global-phone-input";
 
 function App() {
   const [phone, setPhone] = useState("");
@@ -138,4 +138,4 @@ MIT © [Mauricio Gastón Lúquez](https://github.com/mauriciogaston)
 
 ---
 
-Created with ❤️ by Mauricio Gastón Lúquez. If you find this package useful, please consider starring it on [GitHub](https://github.com/HX-MLuquez/react-country-phone-input)!
+Created with ❤️ by Mauricio Gastón Lúquez. If you find this package useful, please consider starring it on [GitHub](https://github.com/HX-MLuquez/react-global-phone-input)!
