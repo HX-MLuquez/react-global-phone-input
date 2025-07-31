@@ -1,10 +1,20 @@
 {
   "name": "react-global-phone-input",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "type": "module",
   "main": "dist/react-global-phone-input.umd.js",
   "module": "dist/react-global-phone-input.es.js",
+  "keywords": [
+    "react",
+    "phone",
+    "input",
+    "global",
+    "international",
+    "phone-input",
+    "react-phone-input"
+  ],
+  "description": "A React component for international phone number input with global support.",
   "exports": {
     "./dist/react-global-phone-input.css": "./dist/react-global-phone-input.css",
     ".": {
@@ -25,6 +35,7 @@
     "type": "git",
     "url": "git+https://github.com/HX-MLuquez/react-global-phone-input"
   },
+
   "dependencies": {
     "libphonenumber-js": "^1.12.10",
     "react": "^19.1.0",
