@@ -38,7 +38,7 @@ yarn add react react-dom zustand libphonenumber-js
 ```jsx
 import React, { useState } from "react";
 import PhoneInput from "react-global-phone-input";
-import "react-global-phone-input/dist/style.css";
+import "react-global-phone-input/dist/react-global-phone-input.css";
 
 function App() {
   const [phone, setPhone] = useState("");

@@ -1,11 +1,12 @@
 {
   "name": "react-global-phone-input",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "type": "module",
   "main": "dist/react-global-phone-input.umd.js",
   "module": "dist/react-global-phone-input.es.js",
   "exports": {
+    "./dist/react-global-phone-input.css": "./dist/react-global-phone-input.css",
     ".": {
       "import": "./dist/react-global-phone-input.es.js",
       "require": "./dist/react-global-phone-input.umd.js"
